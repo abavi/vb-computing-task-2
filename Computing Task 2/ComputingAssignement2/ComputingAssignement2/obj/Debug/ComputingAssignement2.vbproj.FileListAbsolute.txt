@@ -1,0 +1,12 @@
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\bin\Debug\ComputingAssignement2.exe.config
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\bin\Debug\ComputingAssignement2.exe
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\bin\Debug\ComputingAssignement2.pdb
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\bin\Debug\ComputingAssignement2.xml
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\obj\Debug\ComputingAssignement2.vbprojAssemblyReference.cache
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\obj\Debug\ComputingAssignement2.Form1.resources
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\obj\Debug\ComputingAssignement2.Resources.resources
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\obj\Debug\ComputingAssignement2.vbproj.GenerateResource.cache
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\obj\Debug\ComputingAssignement2.vbproj.CoreCompileInputs.cache
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\obj\Debug\ComputingAssignement2.exe
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\obj\Debug\ComputingAssignement2.xml
+D:\University\Computing\Computing Task 2\ComputingAssignement2\ComputingAssignement2\obj\Debug\ComputingAssignement2.pdb
