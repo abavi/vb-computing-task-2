@@ -51,12 +51,12 @@
     End Sub
 
     'Function for searching a student in a course
-    Private Sub SearchStudent(fName As String, sName As String, tNumber As Integer)
+    Private Sub SearchStudent(tNumber As Integer)
         Dim found As Boolean = False
 
         If ComboBox1.SelectedItem = "Computing Technologies" Then
             For Each student As Student In course1Array
-                If student.Name = fName And student.LastName = sName And student.Number = tNumber Then
+                If student.Number = tNumber Then
                     found = True
                 End If
             Next
@@ -70,7 +70,7 @@
 
         If ComboBox1.SelectedItem = "Business Management" Then
             For Each student As Student In course2Array
-                If student.Name = fName And student.LastName = sName And student.Number = tNumber Then
+                If student.Number = tNumber Then
                     found = True
                 End If
             Next
@@ -84,7 +84,7 @@
 
         If ComboBox1.SelectedItem = "General Medical Practice" Then
             For Each student As Student In course3Array
-                If student.Name = fName And student.LastName = sName And student.Number = tNumber Then
+                If student.Number = tNumber Then
                     found = True
                 End If
             Next
@@ -224,11 +224,11 @@
 
     'Pressing the Search button
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        firstName = TextBox1.Text
-        surName = TextBox2.Text
+        'firstName = TextBox1.Text
+        'surName = TextBox2.Text
         telNumber = TextBox3.Text
 
-        SearchStudent(firstName, surName, telNumber)
+        SearchStudent(telNumber)
     End Sub
 
     'Pressing the Delete button
