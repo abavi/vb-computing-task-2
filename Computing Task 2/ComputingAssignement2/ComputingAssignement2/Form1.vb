@@ -113,6 +113,8 @@
             If found = True Then
                 course1Array.Remove(course1Array(index))
                 MessageBox.Show("Student removed from the course")
+            Else
+                MessageBox.Show("Student not enrolled in this course")
             End If
         End If
 
@@ -127,6 +129,8 @@
             If found = True Then
                 course2Array.Remove(course2Array(index))
                 MessageBox.Show("Student removed from the course")
+            Else
+                MessageBox.Show("Student not enrolled in this course")
             End If
         End If
 
@@ -141,6 +145,8 @@
             If found = True Then
                 course1Array.Remove(course3Array(index))
                 MessageBox.Show("Student removed from the course")
+            Else
+                MessageBox.Show("Student not enrolled in this course")
             End If
         End If
     End Sub
@@ -241,9 +247,6 @@
     End Sub
 End Class
 
-
-
-
 'Creating student class
 Public Class Student
 
@@ -251,11 +254,13 @@ Public Class Student
     Private surName As String
     Private telNumber As Integer
 
+    'Constructor
     Public Sub New(fName As String, sName As String, tNumber As Integer)
         Me.firstName = fName
         Me.surName = sName
         Me.telNumber = tNumber
     End Sub
+    'Getters and setters
     Public Property Name() As String
         Get
             Return firstName
